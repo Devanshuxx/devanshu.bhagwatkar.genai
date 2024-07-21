@@ -1,0 +1,11 @@
+# Summary of Attention is all you need
+1)The article or blog introduces a new model architecture called the Transformer, which is based entirely on attention mechanisms and doesn't use recurrence or convolutions.
+2)The Transformer model achieves state-of-the-art performance on machine translation tasks, outperforming previous models while being faster to train.
+3)The key innovation is the use of "self-attention" allowing the model to attend to different parts of the input sequence when producing each part of the output.
+4)The model uses "multi-head attention", which lets it attend to information from different representation subspaces at different positions.
+5)Positional encodings are added to the input embeddings to make use of the order of the sequence, since the model contains no recurrence or convolution.
+6)The Transformer can be trained significantly faster than architectures based on recurrent or convolutional layers, due to increased parallelization.
+7)The model generalizes well to other tasks like English constituency parsing, even with limited task-specific tuning.
+8)The authors suggest the Transformer may be useful for other sequence transduction tasks beyond just text, like for images, audio or video.
+9)The article provides visualizations showing how different attention heads in the model learn to perform different tasks, like focusing on relevant words or handling long-distance dependencies.
+10)The authors are excited about the future potential of attention-based models and plan to extend this approach to other tasks and modalities.
